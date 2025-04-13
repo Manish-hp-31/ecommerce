@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.plane-pic{
+    margin-top: 20px;
+    height: 265px;
+    width: 100%;
+    background: url("mobile_tablet_pic/Banner.gif");
+    background-repeat: no-repeat;
+    background-size: fill;
+    
+}
+
+
+.three-img-set img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+
+
+.top-heading{
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.card-group{
+    height: 240px;
+    width: 300px;
+    text-align: center;
+}
+
+.card-images{
+    height: 150px;
+    width: 180px;
+    object-fit: contain;
+    transition: 1s all ease-in-out;
+}
+
+.card-images:hover{
+    transform: scale(0.9);
+}
+
+.group{
+    display: flex;
+    overflow: scroll;
+
+  
+}
+
+
+.home-btn{
+    height: 30px;
+    width: 70px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+}
+
+
+.product-subtitle{
+    color: green;
+    font-weight: 600;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.product-inner-text{
+    margin-top: 7px;
+    font-size: 14px;
+    overflow: hidden;
+
+
+}
+
+.product-subtitle span{
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+.footer-bar{
+    background-color: black;
+    height: 300px;
+}
+
+.footer-bar ul{
+    padding-top: 20px;
+    color: gray;
+    font-size: 15px;
+}
+
+.footer-ops{
+  
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+   font-family: sans-serif;
+}
+  
+
+
+.bottom-box-1 ul{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.bottom-box-1 ul li a{
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+
+.bottom-bar{
+    background-color: black;
+    border-top: 1px solid rgba(128, 128, 128, 0.587);
+    
+}
+
+
+
+@media(max-width:480px){
+    .footer-bar{
+        height: 100%;
+    }
+
+    .bottom-box-1 ul {
+        flex-direction: column;
+        line-height: 2;
+    }
+
+    .plane-pic{
+        background-size: contain;
+        height: 120px;
+    }
+
+    .card-images{
+        height: 70px;
+    }
+    .product-inner-text{
+        font-size: 13px;
+    }
+
+    .card-group{
+        height: 180px;
+    }
+
+    .icon-end{
+        width: 200px;
+   }
+}
+
+@media (max-width:768px){
+    .icon-end{
+        width: 150px;
+    }
+    .bottom-box-1 ul li a{
+        font-size: 11px;
+    }
+
+    .plane-pic{
+        background-size: contain;
+        height: 220px;
+    }
+}
+
+@media(max-width:1024px){
+    .product-img{
+        width: 138px;
+    }
+
+    .for-box-set{
+        width: 145px;
+    }
+
+    .bottom-box-1 ul li a {
+        font-size: 12px;
+    }
+}
